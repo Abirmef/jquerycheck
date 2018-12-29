@@ -1,0 +1,54 @@
+<!DOCTYPE html> 
+<html> 
+    <head>  
+            <title> CheckPoint js </title> 
+            <link rel="icon" href="res/logo.png"type="image/png"> 
+            <link rel="style sheet" href="css/style.css"> 
+         <script type="text/javascript"> 
+            alert(" Welcome To Our Page ")
+             </script>  
+        <style> 
+        p{margin-right:30%;margin-left:30%;} 
+        h2{text-align:center;} 
+        h1{margin-right:40%;margin-left:30%;}
+            ul { list-style-type: none; margin: 20px;
+                padding: 0; overflow:hidden;
+                background-color: #333333; }
+            button{width:50px;height:50px;}
+           li { float: left; }
+            li  { display: block; color: white; text-align: center; padding: 16px;text-decoration: none;}
+            li:hover { background-color: #111111; } 
+            div { width: 35px;height: 5px;background-color: black;margin: 6px 0;} 
+            </style>
+            </head>
+            <body>
+            <ul>
+              <li> <button id="b" >B</button></li>
+              <li><button id="i"><i>I</i></button></li>
+              <li><button id="u" ><ins>U</ins></button></li>
+              <li><button id="n">N</button></li>  
+              <li><button><div></div> <div></div> <div></div></button>  </li>
+         </ul>  
+            <h1>l’enfant du Soleil </h1>
+            <h2> Les Mystérieuses Cités d’or</h2>
+            <p> 
+                  est une série télévisée d’animation franco-japonaise en 39 épisodes
+                  de 28 minutes, diffusée initialement sur la chaîne NHK au Japon à partir du 29 juin 1982,
+                   en France à partir du 28 septembre 1983 dans Récré A2 sur Antenne 2, et au Canada à partir
+                   u 22 septembre 1984 à la Télévision de Radio-Canada.
+
+                    La série est librement adaptée du roman La Route de l'or (The King's Fifth, 1966) de Scott
+                     O'Dell, une fiction historique qui met en scène la découverte de l'Amérique.
+                    
+                    En 2012, soit trente ans plus tard, une nouvelle série, basée sur celle de 1982 est produite. Bien qu'issue d'une équipe de production totalement différente, elle reprend 
+                    l'histoire là où la série originale s'arrêtait et est nommée Les Mystérieuses Cités d'or.</p>
+                    <script>
+                      $("#b").click(bold( {$(p).css("font_weight","bold");});
+                      $("#i").click(italic(){$(p).css("font_style","italic");});
+                      $("#u").click(underline(){ $(p).css("text_decoration","underline");} );
+                      $("#n").click(normal(){$(p).css("font_weight","normal");});     
+                            </script>
+                </body> 
+               <script src="https://code.jquery.com/jquery-3.3.1.min.js"></script>
+            <script src="js/main.js"> </script>
+         </html>
